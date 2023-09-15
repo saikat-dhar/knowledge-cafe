@@ -4,7 +4,8 @@ import Blog from "../blog";
 
 
 
-const Blogs = () => {
+const Blogs = ({handelToBookmark}) => {
+    
     const [blogs, setBlogs] = useState([])
 
     useEffect(() => {
@@ -18,7 +19,7 @@ const Blogs = () => {
        <main className="md:w-2/3">
             <h2 className="text-2xl">blogs: {blogs.length}</h2>
             {
-                blogs.map( blog => <Blog key={blogs.id} blog={blog}></Blog>)
+                blogs.map( blog => <Blog key={blogs.id} blog={blog} handelToBookmark={handelToBookmark}></Blog>)
             }
        </main>
     );

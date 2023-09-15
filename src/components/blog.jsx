@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
 import { FaBookmark } from 'react-icons/fa';
 
-const Blog = ({blog}) => {
+const Blog = ({blog, handelToBookmark}) => {
 
     const {title,cover_pic, author_img , author,  reading_time, posted_date, hashtag} = blog
     return (
@@ -17,7 +17,7 @@ const Blog = ({blog}) => {
                 </div>
                 <div>
                     <span>{reading_time} min read</span>
-                    <button className='ml-4'><FaBookmark></FaBookmark></button>
+                    <button onClick={handelToBookmark} className='ml-4'><FaBookmark></FaBookmark></button>
                 </div>
              </div>
             <h2 className='mt-6 mb-4'>{title}</h2>
