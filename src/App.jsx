@@ -1,5 +1,8 @@
 
 import './App.css'
+import Blogs from './components/blogs/blogs'
+import Bookmarks from './components/bookmarks'
+import Header from './components/header'
 
 function App() {
   
@@ -7,7 +10,11 @@ function App() {
   return (
     <>
 
-      <h1 className='text-5xl text-center mt-8'>knowladge kafe</h1>
+     <Header></Header>
+     <div className='md:flex max-w-7xl mx-auto'>
+     <Blogs></Blogs>
+     <Bookmarks></Bookmarks>
+     </div>
       
     </>
   )

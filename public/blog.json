@@ -1,0 +1,53 @@
+[
+    {
+      "id": 1,
+      "cover_pic": "https://i.ibb.co/4M6mbdc/3.jpg",
+      "title": "Lorem Ipsum",
+      "author": "John Doe",
+      "author_img": "https://i.ibb.co/6Wvw3m4/a1.jpg",
+      "reading_time": "10 ",
+      "hashtag": "#LoremIpsum",
+      "posted_date": "2022-01-01"
+    },
+    {
+      "id": 2,
+      "cover_pic": "https://i.ibb.co/4M6mbdc/3.jpg",
+      "title": "Dolor Sit Amet",
+      "author": "Jane Smith",
+      "author_img": "https://i.ibb.co/xj8gTds/a2.jpg",
+      "reading_time": "8 ",
+      "hashtag": "#DolorSitAmet",
+      "posted_date": "2022-01-02"
+    },
+    {
+      "id": 3,
+      "cover_pic": "https://i.ibb.co/wgd0hcL/4.jpg",
+      "title": "Consectetur Adipiscing",
+      "author": "David Johnson",
+      "author_img": "https://i.ibb.co/K2w7xN0/a3.jpg",
+      "reading_time": "12 ",
+      "hashtag": "#ConsecteturAdipiscing",
+      "posted_date": "2022-01-03"
+    },
+    {
+      "id": 4,
+      "cover_pic": "https://i.ibb.co/XJjqjxh/5.jpg",
+      "title": "Sed Eget Justo",
+      "author": "Emily Davis",
+      "author_img": "https://i.ibb.co/QQtJTFk/a4.jpg",
+      "reading_time": "6 ",
+      "hashtag": "#SedEgetJusto",
+      "posted_date": "2022-01-04"
+    },
+    {
+      "id": 5,
+      "cover_pic": "https://i.ibb.co/n1nVSpt/6.jpg",
+      "title": "Vivamus Feugiat",
+      "author": "Michael Wilson",
+      "author_img": "https://i.ibb.co/m85GV3w/a5.jpg",
+      "reading_time": "15 ",
+      "hashtag": "#VivamusFeugiat",
+      "posted_date": "2022-01-05"
+    }
+  ]
+  
